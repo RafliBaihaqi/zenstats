@@ -23,6 +23,9 @@ jobs:
         run: go get .
       - name: Test with the Go CLI
         run: go test ./...
+      - name: Cleanup orphan processes
+        run: |
+          pkill -f go || true
 
   build-and-push-image:
     runs-on: ubuntu-latest
