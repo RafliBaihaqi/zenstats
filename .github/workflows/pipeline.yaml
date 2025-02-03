@@ -69,6 +69,6 @@ jobs:
         name: zenfulstats
         file: docker-stack.yaml
         host: vps.raflibaihaqi.me
-        user: deploy
+        user: rafli
         ssh_key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
         env_file: ./envfile
