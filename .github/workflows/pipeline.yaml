@@ -42,8 +42,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/Raflibaihaqi/zenstats:latest
-            ghcr.io/RafliBaihaqi/zenstats:${{ github.sha }}
+            ghcr.io/raflibaihaqi/zenstats:latest
+            ghcr.io/raflibaihaqi/zenstats:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
