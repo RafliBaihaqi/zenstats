@@ -1,7 +1,7 @@
 services:
 
   web:
-    image: ghcr.io/dreamsofcode-io/zenstats:875adc865b0c65c5761e7e75c5cbd34722866861
+    image: ghcr.io/dreamsofcode-io/zenstats:baaf221054f44ec2b6d85f60e94b70a0619665be
     secrets:
       - db-password
     environment:
